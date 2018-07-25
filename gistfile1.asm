@@ -56,11 +56,11 @@ addfun:				;next function add operation
 
 
       	mov ecx, [numadd]	;address of varible inside ecx
-	      add cl, 0x30		;add operation with '0'(ASCII)
-	      cmp cl, 0x61		;compare chack it with varible
-	      je good1		;jump to function good1 if its right num
-	      int 0x80		;syscalls
-	      jmp exit		;jump to exit
+        add cl, 0x30		;add operation with '0'(ASCII)
+        cmp cl, 0x61		;compare chack it with varible
+        je good1		;jump to function good1 if its right num
+        int 0x80		;syscalls
+        jmp exit		;jump to exit
 andfun:				;next function and operator
         mov eax, 0x04		;sys_write
         mov ebx, 0x01		;stdout
@@ -74,12 +74,12 @@ andfun:				;next function and operator
         mov edx, 5		;length of the varible
         int 0x80		;syscalls
 
-	      mov ecx, [numand]	;address of the varible inside ecx
-	      and cl, 0x73		;and operation with 's'(ASCII)
-	      cmp cl, 0x63		;compare it with 0x63
-	      je good2		;jump to function good2
-	      int 0x80		;syscalls
-	      jmp exit		;exit if its fail
+        mov ecx, [numand]	;address of the varible inside ecx
+        and cl, 0x73		;and operation with 's'(ASCII)
+	cmp cl, 0x63		;compare it with 0x63
+        je good2		;jump to function good2
+        int 0x80		;syscalls
+        jmp exit		;exit if its fail
 orfun:				;netx function or 
         mov eax, 0x04		;sys_write
         mov ebx, 0x01		;stdout
@@ -93,12 +93,12 @@ orfun:				;netx function or
         mov edx, 5		;varible length
         int 0x80		;syscalls
 
-	      mov ecx, [numor]	;address of the varible inside ecx
-	      or cl, 	0x64		;or operator "d"(ASCII)
-	      cmp cl, 0x65		;compare with varible
-	      je good3		;jump to good3
-	      int 0x80		;syscalls
-	      jmp exit		;jump to exit
+        mov ecx, [numor]	;address of the varible inside ecx
+        or cl, 	0x64		;or operator "d"(ASCII)
+        cmp cl, 0x65		;compare with varible
+        je good3		;jump to good3
+        int 0x80		;syscalls
+        jmp exit		;jump to exit
 exit:				;next function exit
         mov eax, 0x01		;exit from aplication
         int 0x80		;syscalls
