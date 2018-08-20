@@ -1,4 +1,5 @@
 # assembly
+# Sergio's P.
 program on assembly language (find right symbol)
 
 " section .data "    This section for constant information like data text numblers and so on.
