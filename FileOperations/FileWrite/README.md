@@ -1,4 +1,6 @@
-Program on assembler language (Open and Read from File)
+# assembly
+# Sergio's P.
+Program on assembly language (Open and Read from File)
 
 "section .data "	- This section for constant information like data text numblers and so on. It could be used 
 			  outside functions, in the begining on in the end of the program.
