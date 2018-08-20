@@ -1,5 +1,5 @@
-# assembler
-program on assembler language (find right symbol)
+# assembly
+program on assembly language (find right symbol)
 
 " section .data "    This section for constant information like data text numblers and so on.
                      It could be used outside functions, in the begining on in the end of the program.
