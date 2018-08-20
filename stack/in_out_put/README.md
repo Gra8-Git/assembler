@@ -1,4 +1,4 @@
-# assembly (program wich prints and take input from user and all operations saved inside stack) 
+# assembly (program wich prints and take input from user) 
 # Sergio's P.
 
 	STACK			-	It's array of memory in wich data stored or can be removed
