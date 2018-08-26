@@ -1,4 +1,4 @@
-;#assembler stack program two ways of printing
+; # assembler stack program two ways of printing
 ;Sergio's P.
 ;##############################################################################################
 section .data                                   ;section for constant values
