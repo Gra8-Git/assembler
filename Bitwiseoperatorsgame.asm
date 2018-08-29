@@ -13,7 +13,7 @@ msg5	db	"AND - Make your choice symbol f**_ ",0x0a
 lenmsg5 equ $-msg5
 msg6   db      "OR - Bitwise Operator is waiting for you!!!!",0x0a
 lenmsg6 equ $-msg6
-msg7   db      "GeT Out fROm mY ProGrAm, iNtRUdEr  xor add and or operations (f***)",0x0a
+msg7   db      "GeT Out fROm mY ProGrAm, iNtRUdEr  xor add and or operations (f**e)",0x0a
 lenmsg7 equ $-msg7
 section .bss     ;varibles of the user
 num 	resb 4	
