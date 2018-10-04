@@ -1,6 +1,6 @@
 # assembly
-# Sergio's P.
-program on assembly language (find right symbol)
+Sergio's P.
+program on assembly language 
 
 " section .data "    This section for constant information like data text numblers and so on.
                      It could be used outside functions, in the begining on in the end of the program.
